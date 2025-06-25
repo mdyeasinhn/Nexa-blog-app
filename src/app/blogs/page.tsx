@@ -3,10 +3,9 @@ import { Blog } from "@/types";
 import { Metadata } from "next";
 
 
-export const metaData : Metadata = {
-    title :"NexaBlog | Blogs"
-}
-
+export const metadata : Metadata = {
+  title: "NexaBlog | Blogs"
+};
 const BlogsPage = async () => {
     const res = await fetch("http://localhost:5000/blogs", {
         cache: "no-store"
