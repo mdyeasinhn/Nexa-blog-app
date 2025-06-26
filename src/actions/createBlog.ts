@@ -5,6 +5,7 @@ import { redirect } from "next/navigation";
 export const createBlog = async (data: FormData) => {
 
     const blogData = Object.fromEntries(data.entries())
+    console.log("fa",blogData)
 
     const res = await fetch("http://localhost:5000/blogs", {
         method: "POST",
@@ -20,5 +21,5 @@ export const createBlog = async (data: FormData) => {
         redirect(`/blogs/${blogInfo.id}`)
     }
 
-    return blogInfo
+   return blogInfo
 }

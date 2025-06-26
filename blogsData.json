@@ -73,10 +73,13 @@
       "total_likes": "950"
     },
     {
-      "id": "1d89"
-    },
-    {
-      "id": "e1db"
+      "id": "1ad4",
+      "title": "The Rise of Quantum Computing",
+      "author_name": "Md Yeasin Arafat",
+      "publish_date": "2025-06-24",
+      "total_likes": "4444",
+      "blog_image": "https://www.insights.onegiantleap.com/content/images/2023/10/Content-Hub-Blog---The-rise-of-quantum-computing.png",
+      "description": "Dive into the fascinating world of quantum computing, where traditional binary bits make way for qubits, unlocking unprecedented computational power. Explore the potential applications, challenges, and the race among tech giants to achieve quantum supremacy."
     }
   ]
 }
